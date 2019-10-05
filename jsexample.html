@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>login</title>
+<link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <script>
+        var a=40
+        var b=10
+        
+        
+//        arthematic+/%
+//        logical && || !
+//        comparision== ,!=,>,<,>=,<=
+        
+        
+//        
+//        if(a<20 && a<5){
+//            
+//            alert("a is less dan 20 5")
+//            
+//        }else if(){
+//            
+//            alert("a is greater dan 20")
+//            
+//        }
+//        
+//        var arr=[1,3,45,6,4]
+//        
+//        var obj ={'name':"shreyas>>>>>>>>>>>>"}
+//        obj['age']=25
+//        obj['class']=247 
+//        obj['height']=arr
+//        console.log(obj)
+//        
+//        
+//        for(var i=0;i<=5;i++){
+//            
+//            console.log(arr[i])
+//            
+//        }
+//        
+//        
+//        var x=0
+//        while(x<10){
+//            console.log(arr[x])
+//            x++
+//        }
+        
+        
+        function play(){
+            
+            var a =document.getElementById('valuetext').value
+            console.log(a)
+            console.log(a.length)
+            
+        }
+        var a =[8,5,6,3,1,7,99,1]
+        var even=[]
+        var odd=[]
+        
+        for(var i=0;i<a.length;i++){
+            
+           if(a[i]%2==0){
+               even.push(a[i])
+               
+           }else{
+               
+               odd.push(a[i])
+               
+           }
+            
+            
+        }
+      var obj ={'name':[4,5,7,8,9],'class':{'collage':'msrit'}}
+   
+      console.log(obj['class']['collage'])
+        
+        for(var i=0;i<obj['name'].length;i++){
+            
+           if(obj['name'][i]%2==0){
+               even.push(obj['name'][i])
+               
+           }else{
+               
+               odd.push(obj['name'][i])
+               
+           }
+        
+    </script>
+
+
+
+</head>
+<body>
+<h1>NAME</h1>
+<input type="text" id="valuetext">
+    
+    
+<button onclick="play()">submit</button>
+</body>
+</html>
